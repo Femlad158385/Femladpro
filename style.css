@@ -1,0 +1,500 @@
+* {
+			margin: 0;
+			padding: 0;
+		}
+		header nav img {
+			width: 3em;
+			height: 3em;
+		}
+		nav {
+			display: flex;
+			justify-content: space-between;
+			padding: 1em;
+			align-items: center;
+			border-radius:0 0 2em 2em;
+			background-color: #2E8B57;
+		}
+		header nav a {
+			text-decoration: none;
+			color: #ffffff;
+			font-size: 1.5em;
+			text-transform: capitalize;
+			font-weight: bolder;
+		}
+		header nav a:hover {
+			color: #FF00FF;
+			font-size: 30px;
+			transition: .5s;
+		}
+		header nav .menu {
+			margin: 0 1em 0 1em;
+		}
+		header nav img {
+			margin: 0 1em 0 1em;
+		}
+		header nav p a {
+			margin-left: 4em;
+		}
+		header nav div {
+			margin-right: 5em;
+			display: flex;
+			align-items: center;
+		}
+		.box1 {
+			background-color: #ffffff;
+			border-radius: 2em;
+			color: #2E8B57;
+			width: 6em;
+			text-align: center;
+			padding: 0.5em 1em 0.5em 1em;
+			position: absolute;
+			top: 0.6em;
+			right: 0.5em;
+			font-weight: bolder;
+			font-size: 1.2em;
+		}
+		.border-box1 {
+			padding: 1em 2em 1em 2em;
+			width: 8em;
+			border-radius: 4em;
+			height: 2em;
+			align-items: center;
+			position: relative;
+			background-color: #2E8B57;
+			margin-bottom: 2em;
+		}
+		nav {
+			margin-bottom: 2em;
+		}
+		section2 {
+			display: flex;
+			flex-direction: row;
+			line-height: 4em;
+			justify-content:space-around;
+		}
+		header {
+			background-color: beige;
+			padding-bottom: 8em;
+		}
+		section1 {
+			display: flex;
+			margin-left: 6em;
+		}
+		section2 div .about:hover {
+			color: #FF00FF;
+			font-size: 20px;
+			transition: .5s;
+		}
+		section2 div .about {
+			background-color: #2E8B57;
+			color: #ffffff;
+			text-decoration: none;
+			border-radius: 2em;
+			margin-right: 2em;
+			padding: 1em 3em;
+			text-align: center;
+		}
+		section2 div .read:hover {
+			color: #FF00FF;
+			font-size: 20px;
+			transition: .5s;
+		}
+		section2 div .read {
+			background-color: yellow;
+			color: #ffffff;
+			text-decoration: none;
+			border-radius: 2em;
+			margin-right: 2em;
+			padding: 1em 3em;
+			text-align: center;
+		}
+		section2 div img {
+			border-radius: 2em;
+		}
+		section2 div h1 {
+			font-size: 4em;
+			font-weight: bolder;
+			color: #2E8B57;
+		}
+		section2 div p {
+                 font-size: 1.5em;
+		}
+		section2 div a {
+			font-size: 1em;
+			font-weight: bolder;
+		}
+		section3 {
+			display: flex;
+			flex-direction: row;
+			background-color: #2E8B57;
+		}
+		.manage h1, .promo h1 {
+			margin-bottom: 0.5em;
+			font-size: 2.5em;
+			font-weight: bolder;
+			color: #ffffff;
+		}
+		.manage p, .promo p {
+			font-size: 1.5em;
+			color: #ffffff;
+		}
+		.manage {
+			margin: 4em 1em 1em 7em;
+            background-color: #056608;
+            border-radius: 2em;
+            padding: 5em;
+		}
+		.promo {
+                 margin: 4em 7em 1em 1em;
+                 background-color: #056608;
+                 border-radius: 2em;
+                 padding: 5em;
+		}
+		section4 {
+			display: flex;
+			flex-direction: row;
+			background-color: #2E8B57;
+		}
+		section4 p {
+			background-color: #056608;
+			border-radius: 1em;
+			font-size: 2.5em;
+			font-weight: bolder;
+			padding: 1em;
+			width: 4.5em;
+			height: 2em;
+			text-align: center;
+			color: #ffffff;
+			margin-bottom: 2em;
+		}
+		.section4-brand {
+			     margin-left: 2.9em;
+		}
+		.section4-sale {
+			   margin-left: 0.8em;
+		}
+		.section4-service {
+                margin-left: 0.6em;
+		}
+		.section4-client {
+                margin-left: 0.7em;
+		}
+		section5 {
+			display: flex;
+			flex-direction: row;
+			background-color: beige;
+			padding: 4em 3em 1em 3em;
+		}
+		.section5-box {
+			background-color: #ffffff;
+			border-radius: 2em;
+			color: darkgreen;
+			width: 6em;
+			text-align: center;
+			padding: 0.5em 1em 0.5em 1em;
+			position: absolute;
+			top: 0.6em;
+			right: 0.5em;
+			font-weight: bolder;
+			font-size: 1.2em;
+		}
+		.section5box-border  {
+			padding: 1em 2em 1em 2em;
+			width: 8em;
+			border-radius: 4em;
+			height: 2em;
+			align-items: center;
+			position: relative;
+			background-color: #2E8B57;
+			margin-bottom: 2em;
+				}
+		section5 div h1 {
+			font-size: 4em;
+			font-weight: bolder;
+			color: #2E8B57;
+		}
+		section5 div p {
+              font-size: 1.5em;
+		}
+		.section5-box2 {
+			    background-color: #ffffff;
+			border-radius: 2em;
+			color: darkgreen;
+			width: 6em;
+			text-align: center;
+			padding: 0.5em 1em 0.5em 1em;
+			position: absolute;
+			top: 0.6em;
+			right: 0.5em;
+			font-weight: bolder;
+			font-size: 1.2em;
+		}
+		.section5box-border2{
+			           padding: 1em 2em 1em 2em;
+			width: 8em;
+			border-radius: 4em;
+			height: 2em;
+			align-items: center;
+			position: relative;
+			background-color: yellow;
+			margin-bottom: 2em;
+		}
+		.section5-con1 {
+
+		}
+		.section5-con2 {
+			border: 0.3em solid #2E8B57;
+			border-radius: 1em;
+			padding: 2em;
+		}
+		section6 {
+          display: flex;
+          justify-content: flex-end;
+          background-color: beige;
+          padding: 1em 2em 1em 0;
+		}
+		.section6-con {
+			border: 0.3em solid #2E8B57;
+			border-radius: 1em;
+			padding: 2em;
+			width: 37em;
+			height: 20em;
+			margin-right: 1em;
+		}
+		section6 div h1 {
+			font-size: 4em;
+			font-weight: bolder;
+			color: #2E8B57;
+		}
+		section6 div p {
+              font-size: 1.5em;
+		}
+		
+		section7 {
+			display: flex;
+          justify-content: flex-end;
+          background-color: beige;
+		}
+		.section7-con {
+			border: 0.3em solid #2E8B57;
+			border-radius: 1em;
+			padding: 2em;
+			width: 37em;
+			height: 20em;
+			margin-right: 2.8em;
+			margin-bottom: 10em;
+		}
+		section7 div h1 {
+			font-size: 4em;
+			font-weight: bolder;
+			color: #2E8B57;
+		}
+		section7 div p {
+              font-size: 1.5em;
+		}
+		section8 {
+			display: flex;
+			align-items: center;
+			background-color: #2E8B57;
+			flex-direction: column;
+			padding-top: 2em;
+		}
+		.video {
+			width: 50em;
+			height: 30em;
+			border-radius: 4em;
+		    margin-bottom: 3em;
+		}
+		section8 h1 {
+			color: #ffffff;
+			font-size: 4em;
+			font-weight: bolder;
+		}
+		section9 {
+			display: flex;
+			flex-direction: row;
+			background-color: beige;
+		}
+		.section9-img {
+			            width: 5em;
+			            height: 4em;
+		}
+		.section9-con1 {
+			background-color: #ffffff;
+			color: #2E8B57;
+			margin: 4em 2em 3em 11em;
+			border-radius: 2em;
+			width: 20em;
+			height: 32em;
+			padding: 5em;
+			line-height: 1.5em;
+		}
+		.section9-con2 {
+			background-color: #2E8B57;
+			color: #ffffff;
+			margin: 4em 4em 3em 2em;
+			border-radius: 2em;
+			width: 20em;
+			height: 32em;
+			padding: 5em;
+			line-height: 1.5em;
+		}
+		section10 h1 {
+			background-color: #2E8B57;
+			padding-top: 2em;
+			padding-left: 12em;
+			font-size: 3em;
+			color: #fff;
+		}
+		.card-container {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+			padding-top: 6em;
+			background-color: #2E8B57;
+		}
+		.content {
+            padding: 0.8em;
+		}
+		.content h2 {
+			font-size: 1.5em;
+			margin-bottom: 0.6em;
+		}
+		.content p {
+			font-size: 1em;
+			margin-bottom: 0.9em;
+		}
+		.card {
+			width: 20em;
+			background-color: #fff;
+			margin: 0.7em;
+			transition: transform 0.5s ease,background-color 0.4s ease;
+			border-radius: 0 0 2em 2em;
+		}
+		.card img {
+			width: 100%;
+			max-height: 12.5em;
+			object-fit: cover;
+			margin-bottom: 0.7em;
+		}
+		.content a {
+			text-decoration: none;
+			font-size: 1em;
+			display: inline-block;
+			padding: 0.7em 1.3em;
+			background-color: #2E8B57;
+			color: #000;
+			margin-bottom: 0.7em;
+		}
+		.card:hover {
+			transform: translateY(-0.9em);
+			background-color: #2196f3;
+		}
+		section11 {
+			background-color: #2E8B57;
+			padding: 3em;
+			display: flex;
+			flex-direction: column;
+		}
+		section11 iframe {
+			width: 65em;
+			height: 28em;
+			border-radius: 3em;
+			margin-top: 3em;
+			margin-left: 6em;
+		}
+		section11 h1 {
+			font-size: 3em;
+			color: #fff;
+			margin-left: 11em;
+		}
+		section12 div .about {
+			background-color: #2E8B57;
+			color: #ffffff;
+			text-decoration: none;
+			border-radius: 2em;
+			margin-right: 2em;
+			padding: 1em 3em;
+			text-align: center;
+		}
+		section12 div .read {
+			background-color: beige;
+			color: darkgreen;
+			text-decoration: none;
+			border-radius: 2em;
+			margin-right: 2em;
+			padding: 1em 3em;
+			text-align: center;
+			border: 1px solid #2E8B57;
+		}
+		section12 {
+			     display: flex;
+			     flex-direction: row;
+			     background-color: beige;
+			     padding: 3em 5em;
+		}
+		section12 div {
+			line-height: 2em;
+		}
+		section12 div .put {
+			width: 35em;
+			height: 3em;
+			border-left: 3px solid #2E8B57;
+			padding: 0.5em;
+		}
+		section12 div textarea {
+			width: 35em;
+			height: 10em;
+			border-left: 0.5em solid #2E8B57;
+			padding: 1em;
+		}
+		.sub {
+			background-color: #2E8B57;
+			color: #fff;
+			padding: 2em;
+			border-radius: 3em;
+		}
+		section12 div h1 {
+			color: #2E8B57;
+		}
+		section12 div p{
+			     margin-bottom: 2em;
+			     font-size: 1.5em;
+		}
+		section12 .content {
+			margin-right: 2em;
+		}
+		.boxx {
+			background-color: #ffffff;
+			border-radius: 2em;
+			color: darkgreen;
+			width: 6em;
+			text-align: center;
+			padding: 0.5em 1em 0.5em 1em;
+			position: absolute;
+			top: 0.4em;
+			right: 0.5em;
+			font-weight: bolder;
+			font-size: 1.2em;
+		}
+		footer {
+			display: flex;
+			justify-content: space-between;
+			background-color: #2E8B57;
+			padding: 3em 4em 3em 4em;
+		}
+		footer p {
+			color: #fff;
+			font-size: 1.3em;
+			font-family: sans-serif;
+		}
+		@media screen and (max-width:650px){
+	   header nav{
+		display: none;
+	}
+}
+@media screen and (max-width:886px){
+	   header nav img{
+		display: none;
+	}
+}
